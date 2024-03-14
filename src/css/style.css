@@ -66,6 +66,10 @@ body {
     transition: 0.3s ease-in-out;
 }
 
+.menu li a:hover{
+    text-decoration: underline;
+}
+
 .section {
     width: 60%;
 }
@@ -114,4 +118,9 @@ body {
     margin-right: 20px;
     text-transform: uppercase;
     color: hsl(0, 0%, 100%);
+    transition: 0.3s ease-in-out;
+}
+
+.button a:hover{
+    opacity: 75%;
 }
