@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+
+body {
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+}
+
+.menu li a,
+.section .info p span,
+.section .title,
+.button a {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/illustration-devices.svg);
+    background-repeat: no-repeat;
+    background-position: 110% 60%;
+    position: relative;
+}
+
+.gray-backgroud{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 50%;
+    height: 60%;
+    background-color: hsl(207, 33%, 95%);
+    border-radius: 0px 0px 0px 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 80px 0 180px;
+}
+
+.header nav i {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+.menu li,
+.menu li:last-child a {
+    color: hsl(231, 7%, 65%);
+}
+
+.menu li a {
+    color: hsl(230, 29%, 20%);
+    transition: 0.3s ease-in-out;
+}
+
+.section {
+    width: 60%;
+}
+
+.section .info p {
+    color: hsl(230, 11%, 40%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section .info p span {
+    font-size: 15px;
+    background-color: hsl(230, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 5px 10px;
+    letter-spacing: 0;
+    margin-right: 10px;
+}
+
+.section .title {
+    font-size: 70px;
+    text-transform: uppercase;
+    width: 600px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.section .info .description {
+    text-transform: none;
+    letter-spacing: 0px;
+    margin-bottom: 60px;
+    width: 280px;
+}
+
+.section .button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button a {
+    background-color: hsl(0, 100%, 68%);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+}
