@@ -7,7 +7,7 @@ body {
     font-size: 18px;
 }
 
-.menu li a,
+.nav-list li a,
 .section .info p span,
 .section .title,
 .button a {
@@ -27,7 +27,7 @@ body {
     position: relative;
 }
 
-.gray-backgroud{
+.gray-backgroud {
     position: absolute;
     top: 0;
     right: 0;
@@ -41,37 +41,55 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 60%;
-    margin: 80px 0 180px;
+    height: 20vh;
 }
 
-.header nav i {
-    display: none;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.menu {
+.nav-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 400px;
 }
 
-.menu li,
-.menu li:last-child a {
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: hsl(0, 0%, 0%);
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.nav-list li,
+.nav-list li:last-child a {
     color: hsl(231, 7%, 65%);
 }
 
-.menu li a {
+.nav-list li a {
     color: hsl(230, 29%, 20%);
     transition: 0.3s ease-in-out;
 }
 
-.menu li a:hover{
+.nav-list li a:hover {
     text-decoration: underline;
 }
 
 .section {
     width: 60%;
+    height: 80vh;
+    margin-top: 160px;
 }
 
 .section .info p {
@@ -121,6 +139,6 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-.button a:hover{
+.button a:hover {
     opacity: 75%;
 }
