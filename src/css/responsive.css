@@ -110,7 +110,7 @@
 
 @media(max-width:425px){
     .header, .section {
-        width: 90%;
+        width: 300px;
     }
 
     .container {
@@ -121,7 +121,7 @@
 
     .nav-list {
         top: 15vh;
-        height: 80vh;
+        height: 85vh;
     }
 
     .section {
@@ -135,6 +135,10 @@
     .section .title {
         font-size: 40px;
         width: 100%;
+    }
+
+    .section .button {
+        margin-bottom: 0px;
     }
 
     .button a {
