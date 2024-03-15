@@ -32,7 +32,7 @@ body {
     top: 0;
     right: 0;
     z-index: -1;
-    width: 50%;
+    width: 50vw;
     height: 60%;
     background-color: hsl(207, 33%, 95%);
     border-radius: 0px 0px 0px 100px;
@@ -84,6 +84,13 @@ nav {
 
 .nav-list li a:hover {
     text-decoration: underline;
+}
+
+.nav-list .line{
+    background-color: hsl(231, 7%, 65%);
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
 }
 
 .section {
