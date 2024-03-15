@@ -27,6 +27,7 @@
 @media(max-width:768px) {
     .container {
         overflow-x: hidden;
+        height: 100%;
     }
 
     .nav-list {
@@ -85,7 +86,7 @@
     }
 
     .backgroud-image {
-        background-position: -80% 35%;
+        background-position: -80% 50%;
         background-size: 900px 350px;
     }
 
@@ -117,13 +118,8 @@
     }
 
     .backgroud-image {
-        background-position: -200% 25%;
+        background-position: -200% 30%;
         background-size: 110%;
-    }
-
-    .nav-list {
-        top: 15vh;
-        height: 85vh;
     }
 
     .section {
